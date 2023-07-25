@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  height: 98vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#display {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  height: 400px;
+}
+
+.btns {
+  justify-content: center;
+}
+
+#results, #score {
+  width: 300px;
+}
